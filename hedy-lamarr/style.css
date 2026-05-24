@@ -1,0 +1,27 @@
+body{
+    background-color: lightgrey;
+    opacity: 89%;
+    margin: 0 auto;
+    margin: 0 100px 0 100px;
+}
+
+h1, h2{
+    font-weight: bolder;
+}
+
+.centered{
+    text-align: center;
+}
+
+section{
+    margin: 0 auto;
+}
+
+section img{
+    border-radius: 10px;
+}
+
+section article{
+    margin: 0 auto;
+}
+

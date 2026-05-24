@@ -1,0 +1,348 @@
+<html>
+
+<head>
+  <title>HTML Documentation</title>
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="keywords" content="HTML, CSS, javaScript">
+  <meta name="description" content="Basic HTML, CSS, javaScript, Introduction to HTML">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav id="navbar">
+    <header>HTML Documentation</header>
+    <ul>
+      <li><a href="#Introduction" class="nav-link">Introduction</a></li>
+      <li><a href="#What_can_you_do_with_HTML" class="nav-link">What can you do with HTML</a></li>
+      <li><a href="#Getting_Started" class="nav-link">Getting Started</a></li>
+      <li><a href="#HTML_Elements" class="nav-link">HTML Elements</a></li>
+      <li><a href="#HTML_Attribute" class="nav-link">HTML Attribute</a></li>
+      <li><a href="#HTML_Headings" class="nav-link">HTML Headings</a></li>
+      <li><a href="#HTML_Paragraphs" class="nav-link">HTML Paragraphs</a></li>
+      <li><a href="#HTML_Links" class="nav-link">HTML Links</a></li>
+      <li><a href="#HTML_Text_Formatting" class="nav-link">HTML Text Formatting</a></li>
+      <li><a href="#HTML_Styles" class="nav-link">HTML Styles</a></li>
+      <li><a href="#HTML_Images" class="nav-link">HTML Images</a></li>
+      <li><a href="#HTML_Tables" class="nav-link">HTML Tables</a></li>
+      <li><a href="#HTML_Lists" class="nav-link">HTML Lists</a>
+      <li><a href="#HTML_Forms" class="nav-link">HTML Forms</a></li>
+      <li><a href="#HTML_Iframe" class="nav-link">HTML Iframe</a></li>
+    </ul>
+  </nav>
+  <main id="main-doc">
+    <section class="main-section" id="Introduction">
+      <header>Introduction</header>
+      <p>HTML stands for <b>H</b>yper<b>t</b>ext <b>M</b>arkup <b>L</b>anguage. HTML is the basic building block of World Wide Web. Hypertext is text displayed on a computer or other electronic device with references to other text that the user can immediately access, usually by a mouse click or key press. Apart from text, hypertext may contain tables, lists, forms, images, and other presentational elements. It is an easy-to-use and flexible format to share information over the Internet.</p>
+
+      <p>Markup languages use sets of markup tags to characterize text elements within a document, which gives instructions to the web browsers on how the document should appear. HTML was originally developed by Tim Berners-Lee in 1990. He is also known as the father of the web. In 1996, the World Wide Web Consortium &#40;W3C&#41; became the authority to maintain the HTML specifications. HTML also became an international standard &#40;ISO&#41; in 2000. HTML5 is the latest version of HTML. HTML5 provides a faster and more robust approach to web development.</p>
+    </section>
+
+    <section class="main-section" id="What_can_you_do_with_HTML">
+      <header>What can you do with HTML</header>
+      <p>There are lot more things you can do with HTML.</p>
+      <ul>
+        <li>You can publish documents online with text, images, lists, tables, etc.</li>
+        <li>You can access web resources such as images, videos or other HTML document via hyperlinks.</li>
+        <li>You can create forms to collect user inputs like name, e-mail address, comments, etc.</li>
+        <li>You can include images, videos, sound clips, flash movies, applications and other HTML documents directly inside an HTML document.</li>
+        <li>You can create offline version of your website that work without internet.</li>
+        <li>You can store data in the user's web browser and access later on.</li>
+        <li>You can find the current location of your website's visitor.</li>
+      </ul>
+      <p>The list does not end here, there are many other interesting things that you can do with HTML. You will learn about all of them in detail in upcoming chapters.</p>
+    </section>
+
+    <section class="main-section" id="Getting_Started">
+      <header>Getting Started</header>
+      <p>An HTML file is simply a text file saved with an .html or .htm extension.</p>
+      <p>To begin coding HTML you need only two stuff: a simple-text editor and a web browser.</p>
+      <p>Well, let's get started with creating your first HTML page.</p>
+      <p><b>Step 1: Creating the HTML file</b> <br>Open up your computer's plain text editor and create a new file.</p>
+      <p><b>Step 2: Type some HTML code</b><br>
+        Start with an empty window and type the following code:</p>
+      <pre>
+    <code>
+      &#60;!DOCTYPE html&#62;
+      &#60;html lang="en"&#62;
+      &#60;head&#62;
+        &#60;title&#62;A simple HTML document&#60;&#47;title&#62;
+      &#60;&#47;head&#62;
+      &#60;body&#62;
+        &#60;p&#62;Hello World!&#60;&#47;p&#62;
+      &#60;&#47;body&#62;
+      &#60;&#47;html&#62;
+    </code>
+    </pre>
+
+      <p><b>Step 3: Saving the file</b><br>
+        Now save the file on your desktop as "myfirstpage.html ".</p>
+
+      <p><b>Explanation of code</b><br>
+        You might think what that code was all about. Well, let's find out.</p>
+      <ul>
+        <li>The first line &#60;!DOCTYPE html&#62; is the document type declaration. It instructs the web browser that this document is an HTML5 document. It is case-insensitive.</li>
+        <li>The &#60;head&#62; element is a container for the tags that provides information about the document, for example, &#60;title&#62; tag defines the title of the document.</li>
+        <li>The &#60;body&#62; element contains the document's actual content (paragraphs, links, images, tables, and so on) that is rendered in the web browser and displayed to the user.</li>
+      </ul>
+      <p>You will learn about the different HTML elements in detail in the upcoming chapters. For now, just focus on the basic structure of the HTML document.</p>
+    </section>
+
+    <section class="main-section" id="HTML_Elements">
+      <header>HTML Elements</header>
+      <p>An HTML element is an individual component of an HTML document. It represents semantics, or meaning. For example, the title element represents the title of the document.</p>
+      <p>Most HTML elements are written with a start tag (or opening tag) and an end tag (or closing tag), with content in between. Elements can also contain attributes that defines its additional properties. For example, a paragraph, which is represented by the p element, would be written as:</p>
+      <img src="https://www.tutorialrepublic.com/lib/images/html-element.png" width="250">
+    </section>
+
+    <section class="main-section" id="HTML_Attribute">
+      <header>HTML Attribute</header>
+      <p>Attributes define additional characteristics or properties of the element such as width and height of an image. Attributes are always specified in the start tag &#40;or opening tag&#41; and usually consists of name/value pairs like name&#61;"value". Attribute values should always be enclosed in quotation marks.</p>
+      <p>Also, some attributes are required for certain elements. For instance, an &#60;img&#62; tag must contain a src and alt attributes. Let's take a look at some examples of the attributes usages:</p>
+      <pre>
+    <code>
+        &#60;img src="images/smiley.png" width="30" height="30" alt="Smiley"&#62;
+        &#60;a href="https://www.google.com/" title="Search Engine"&#62;Google&#60;&#47;a&#62;
+        &#60;abbr title="Hyper Text Markup Language"&#62;HTML&#60;&#47;abbr&#62;
+        &#60;input type="text" value="John Doe"&#62;
+    </code>
+    </pre>
+      <p>In the above example src inside the &#60;img&#62; tag is an attribute and image path provided is its value. Similarly href inside the &#60;a&#62; tag is an attribute and the link provided is its value, and so on.</p>
+    </section>
+
+    <section class="main-section" id="HTML_Headings">
+      <header>HTML Headings</header>
+      <p>Headings help in defining the hierarchy and the structure of the web page content.</p>
+      <p>HTML offers six levels of heading tags, &#60;h1&#62; through &#60;h6&#62;; the higher the heading level number, the greater its importance — therefore &#60;h1&#62; tag defines the most important heading, whereas the &#60;h6&#62; tag defines the least important heading in the document.</p>
+      <p>By default, browsers display headings in larger and bolder font than normal text. Also, &#60;h1&#62; headings are displayed in largest font, whereas &#60;h6&#62; headings are displayed in smallest font.</p>
+      <p>Example</p>
+      <pre>
+    <code>
+    &#60;h1>Heading level 1&#60;&#47;h1&#62;
+    &#60;h2>Heading level 2&#60;&#47;h2&#62;
+    &#60;h3>Heading level 3&#60;&#47;h3&#62;
+    &#60;h4>Heading level 4&#60;&#47;h4&#62;
+    &#60;h5>Heading level 5&#60;&#47;h5&#62;
+    &#60;h6&#62;Heading level 6&#60;&#47;h6&#62;
+    </code>
+    </pre>
+      <p>Output of code</p>
+      <code>
+        <h1>Heading level 1</h1>
+        <h2>Heading level 2</h2>
+        <h3>Heading level 3</h3>
+        <h4>Heading level 4</h4>
+        <h5>Heading level 5</h5>
+        <h6>Heading level 6</h6>
+      </code>
+    </section>
+
+    <section class="main-section" id="HTML_Paragraphs">
+      <header>HTML Paragraphs</header>
+      <p>Paragraph element is used to publish text on the web pages.</p>
+      <p>Paragraphs are defined with the &#60;p&#62; tag. Paragraph tag is a very basic and typically the first tag you will need to publish your text on the web pages. Here's an example:</p>
+      <p>Example</p>
+      <pre>
+    <code>
+    &#60;p&#62;This is a paragraph.&#60;&#47;p&#62;
+    &#60;p&#62;This is another paragraph.&#60;&#47;p&#62;
+    </code>
+    </pre>
+      <p><b>Note:</b> Browsers built-in style sheets automatically create some space above and below the content of a paragraph (called margin), but you can override it using CSS.</p>
+    </section>
+
+    <section class="main-section" id="HTML_Links">
+      <header>HTML Links</header>
+      <p>A link or hyperlink is a connection from one web resource to another. Links allow users to move seamlessly from one page to another, on any server anywhere in the world.</p>
+      <p>A link has two ends, called anchors. The link starts at the source anchor and points to the destination anchor, which may be any web resource, for example, an image, an audio or video clip, a PDF file, an HTML document or an element within the document itself, and so on.</p>
+      <p>By default, links will appear as follow in most of the browsers:</p>
+      <ul>
+        <li>An unvisited link is underlined and blue.</li>
+        <li>A visited link is underlined and purple.</li>
+        <li>An active link is underlined and red.</li>
+      </ul>
+      <p>However, you can overwrite this using CSS. Learn more about <a href="https://www.tutorialrepublic.com/css-tutorial/css-links.php">styling links.</a></p>
+      <p>The target attribute tells the browser where to open the linked document. There are four defined targets, and each target name starts with an underscore(_) character:</p>
+      <ul>
+        <li>_blank — Opens the linked document in a new window or tab.</li>
+        <li>_parent — Opens the linked document in the parent window.</li>
+        <li>_self — Opens the linked document in the same window or tab as the source document. This is the default, hence it is not necessary to explicitly specify this value.</li>
+        <li>_top — Opens the linked document in the full browser window.</li>
+        <ul>
+          <p>Try out the following example to understand how the link's target basically works:</p>
+
+          <pre>
+<code>
+&#60;a href="/about-us.php" target="_top"&#62;About Us&#60;&#47;a&#62;
+&#60;a href="https://www.google.com/" target="_blank"&#62;Google&#60;&#47;a&#62;
+&#60;a href="images/sky.jpg" target="_parent"&#62;
+    &#60;img src="sky-thumb.jpg" alt="Cloudy Sky"&#62;
+&#60;&#47;a&#62;
+</code>
+</pre>
+          <p><b>Tip:</b> If your web page is placed inside an iframe, you can use the target="_top" on the links to break out of the iframe and show the target page in full browser window.</p>
+    </section>
+
+    <section class="main-section" id="HTML_Text_Formatting">
+      <header>HTML Text Formatting</header>
+      <p>HTML provides several tags that you can use to make some text on your web pages to appear differently than normal text, for example, you can use the tag &#60;b&#62; to make the text bold, tag &#60;i&#62; to make the text italic, tag &#60;mark&#62; to highlight the text, tag &#60;code&#62; to display a fragment of computer code, tags &#60;ins&#62; and &#60;del&#62; for marking editorial insertions and deletions, and more.</p>
+      <p>The following example demonstrates the most commonly used formatting tags in action. Now, let's try this out to understand how these tags basically work:</p>
+      <pre>
+    <code>
+    &#60;p&#62;This is &#60;b&#62;bold text&#60;&#47;b&#62;&#60;&#47;p&#62;
+  &#60;p&#62;This is &#60;strong&#62;strongly important text&#60;&#47;strong&#62;.&#60;&#47;p&#62;
+  &#60;p&#62;This is &#60;i&#62;italic text&#60;&#47;i&#62;.&#60;&#47;p&#62;
+  &#60;p&#62;This is &#60;em&#62;emphasized text&#60;&#47;em&#62;.&#60;&#47;p&#62;
+  &#60;p&#62;This is &#60;mark&#62;highlighted text&#60;&#47;mark&#62;.&#60;&#47;p&#62;
+  &#60;p&#62;This is &#60;code&#62;computer code&#60;&#47;code&#62;.&#60;&#47;p&#62;
+  &#60;p&#62;This is &#60;small&#62;smaller text&#60;&#47;small&#62;.*#60;&#47;p&#62;
+  &#60;p&#62;This is &#60;sub&#62;subscript&#60;&#47;sub&#62; and &#60;sup&#62;superscript&#60;&#47;sup&#62; text.&#60;&#47;p&#62;
+  &#60;p&#62;This is &#60;del&#62;deleted text&#60;&#47;del&#62;.&#60;&#47;p&#62;
+  &#60;p&#62;This is &#60;ins&#62;inserted text&#60;&#47;ins&#62;.&#60;&#47;p&#62;
+  </code>
+  </pre>
+    </section>
+
+    <section class="main-section" id="HTML_Styles">
+      <header>HTML Styles</header>
+      <p>HTML is quite limited when it comes to the presentation of a web page. It was originally designed as a simple way of presenting information. <a href="https://www.tutorialrepublic.com/css-tutorial/" target="_blank">CSS (Cascading Style Sheets)</a> was introduced in December 1996 by the <a href="https://en.wikipedia.org/wiki/World_Wide_Web_Consortium" target="_blank">World Wide Web Consortium (W3C)</a> to provide a better way to style HTML elements.</p>
+      <p>With CSS, it becomes very easy to specify the things like, size and typeface for the fonts, colors for the text and backgrounds, alignment of the text and images, amount of space between the elements, border and outlines for the elements, and lots of other styling properties.</p>
+
+      <p>Adding Styles to HTML Elements
+        Style information can either be attached as a separate document or embedded in the HTML document itself. These are the three methods of implementing styling information to an HTML document.</p>
+      <ul>
+        <li>Inline styles — Using the style attribute in the HTML start tag.</li>
+        <li>Embedded style — Using the &#60;style&62; element in the head section of the document.</li>
+        <li>External style sheet — Using the &#60;link&#62; element, pointing to an external CSS files.</p>
+      </ul>
+    </section>
+
+    <section class="main-section" id="HTML_Images">
+      <header>HTML Images</header>
+      <p>Images enhance visual appearance of the web pages by making them more interesting and colorful.</p>
+      <p>The &#60;img&#62; tag is used to insert images in the HTML documents. It is an empty element and contains attributes only. The syntax of the &#60;img&#62; tag can be given with:<br>
+        <pre>
+      <code>
+      &#60;img src="url" alt="some_text"&#62;
+      </code>
+      </pre>
+        <p>The following example inserts three images on the web page:</p>
+        <pre>
+    <code>
+&#60;img src="kites.jpg" alt="Flying Kites"&#62;
+&#60;img src="sky.jpg" alt="Cloudy Sky"&#62;
+&#60;img src="balloons.jpg" alt="Balloons"&#62;
+</code>
+</pre>
+        <p>Each image must carry at least two attributes: the src attribute, and an alt attribute. The src attribute tells the browser where to find the image. Its value is the URL of the image file. Whereas, the alt attribute provides an alternative text for the image, if it is unavailable or cannot be displayed for some reason. Its value should be a meaningful substitute for the image.
+    </section>
+
+    <section class="main-section" id="HTML_Tables">
+      <header>HTML Tables</header>
+      <p>HTML table allows you to arrange data into rows and columns. They are commonly used to display tabular data like product listings, customer's details, financial reports, and so on.</p>
+      <p>You can create a table using the &#60;table&#62; element. Inside the &#60;table&#62; element, you can use the &#60;tr&#62; elements to create rows, and to create columns inside a row you can use the &#60;td&#62; elements. You can also define a cell as a header for a group of table cells using the &#60;th&#62; element.</p>
+      <p>The following example demonstrates the most basic structure of a table.</p>
+      <pre>
+    <code>
+    &#60;table&#62;
+    &#60;tr&#62;
+        &#60;td&#62;No.&#60;&#47;td&#62;
+        &#60;td&#62;Name&#60;&#47;td&#62;
+        &#60;td&#62;Age&#60;&#47;td&#62;
+    &#60;&#47;tr&#62;
+    &#60;tr&#62;
+        &#60;td&#62;1&#60;&#47;td&#62;
+        &#60;td&#62;Peter Parker&#60;&#47;td&#62;
+        &#60;td&#62;16&#60;&#47;td&#62;
+    &#60;&#47;tr&#62;
+    &#60;tr&#62;
+       &#60;td&#62;2&#60;&#47;td&#62;
+       &#60;td&#62;Clark Kent&#60;&#47;td&#62;
+       &#60;td&#62;34&#60;&#47;td&#62;
+    &#60;&#47;tr&#62;
+    &#60;&#47;table&#62;
+</code>
+</pre>
+    </section>
+
+    <section class="main-section" id="HTML_Lists">
+      <header>HTML Lists</header>
+      <p>HTML lists are used to present list of information in well formed and semantic way. There are three different types of list in HTML and each one has a specific purpose and meaning.</p>
+      <ol>
+        <li>Unordered list — Used to create a list of related items, in no particular order.</li>
+        <li>Ordered list — Used to create a list of related items, in a specific order.</li>
+        <li>Description list — Used to create a list of terms and their descriptions.</li>
+      </ol>
+      <p><b>Note:</b> Inside a list item you can put text, images, links, line breaks, etc. You can also place an entire list inside a list item to create the nested list.</p>
+
+      <p>In the following sections we will cover all the three types of list one by one:</p>
+      <p>Unordered List</p>
+      <p>An unordered list created using the &#60;ul&#62; element, and each list item starts with the &#60;li&#62; element.The list items in unordered lists are marked with bullets.</p>
+      <pre>
+<code>
+&#60;ul&#62;
+    &#60;li&#62;Chocolate Cake&#60;&#47;li&#62;
+    &#60;li&#62;Black Forest Cake&#60;&#47;li&#62;
+    &#60;li&#62;Pineapple Cake&#60;&#47;li&#62;
+&#60;&#47;ul&#62;
+</code>
+</pre>
+      <p>Ordered List</p>
+      <p>An ordered list created using the &#60;ol&#62; element, and each list item starts with the &#60;li&#62; element. Ordered lists are used when the order of the list's items is important. The list items in an ordered list are marked with numbers.</p>
+      <pre>
+<code>
+&#60;0l&#62;
+    &#60;li&#62;Fasten your seatbelt&#60;&#47;li&#62;
+    &#60;li&#62;Starts the car's engine&#60;&#47;li&#62;
+    &#60;li&#62;Look around and go&#60;&#47;li&#62;
+&#60;&#47;ol&#62;
+</code>
+</pre>
+      <p>Description Lists</p>
+      <p>A description list is a list of items with a description or definition of each item. The description list is created using &#60;dl&#62; element. The &#60;dl&#62; element is used in conjunction with the &#60;dt&#62; element which specify a term, and the &#60;dd&#62; element which specify the term's definition.</p>
+      <p>Browsers usually render the definition lists by placing the terms and definitions in separate lines, where the term's definitions are slightly indented.</p>
+
+      <pre>
+<code>
+&#60;dl&#62;
+    &#60;dt&#62;Bread&#60;&#47;dt&#62;
+    &#60;dd&#62;A baked food made of flour.&#60;&#47;dd&#62;
+    &#60;dt&#62;Coffee&#60;&#47;dt&#62;
+    &#60;dd&#62;A drink made from roasted coffee beans.&#60;&#47;dd&#62;
+&#60;&#47;dl&#62;
+</code>
+</pre>
+    </section>
+
+    <section class="main-section" id="HTML_Forms">
+      <header>HTML Forms</header>
+      <p>HTML Forms are required to collect different kinds of user inputs, such as contact details like name, email address, phone numbers, or details like credit card information, etc.</p>
+      <p>Forms contain special elements called controls like inputbox, checkboxes, radio-buttons, submit buttons, etc. Users generally complete a form by modifying its controls e.g. entering text, selecting items, etc. and submitting this form to a web server for further processing.</p>
+      <p>The &#60;form&#62; tag is used to create an HTML form. Here's a simple example of a login form:</p>
+      <pre>
+    <code>
+    &#60;form&#62;
+    &#60;label&#62;Username: &#60;input type="text"&#62;&#60;&#47;label&#62;
+    &#60;label&#62;Password: &#60;input type="password"&#62;&#60;&#47;label&#62;
+    &#60;input type="submit" value="Submit"&#62;
+&#60;&#47;form&#62;
+</code>
+</pre>
+    </section>
+
+    <section class="main-section" id="HTML_Iframe">
+      <header>HTML Iframe</header>
+      <p>An iframe or inline frame is used to display external objects including other web pages within a web page. An iframe pretty much acts like a mini web browser within a web browser. Also, the content inside an iframe exists entirely independent from the surrounding elements.</p>
+
+      <p>The basic syntax for adding an iframe to a web page can be given with:</p>
+      <pre><code>&#60;iframe src="URL"&#62;&#60;&#47;iframe&#62;</code></pre>
+      <p>The URL specified in the src attribute points to the location of an external object or a web page.The following example display "hello.html" file inside an iframe in current document.</p>
+      <pre><code>&#60;iframe src="hello.html"&#62;&#60;&#47;iframe&#62;</code></pre>
+    </section>
+  </main>
+
+</body>
+
+</html>
