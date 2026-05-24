@@ -1,0 +1,424 @@
+body
+{
+    background-color: #f2f6fa;
+    font-family: Arial, Verdana;
+    line-height: 1.5;
+    text-align: left;
+    font-size: 87.5%;
+}
+
+.body
+{
+    margin: 0 auto;
+    width: 90%;
+    clear: both;
+}
+/*slide*/
+.mySlide
+{
+    display: none;
+}
+.w3-left, .w3-right, .w3-badge{
+    cursor: pointer;
+}
+.w3-badge{
+    height: 13px;
+    width: 13px;
+    padding: 0;
+    background-color: transparent;
+}
+
+/*header css*/
+.header img
+{
+    height: auto;
+    margin: 3% 0;
+    width: 100%;
+}
+.header nav
+{
+    width: 100%;
+    float: left;
+    padding-left: 250px;
+    padding-right: 250px;
+    background-image: url("peacock.jpg");
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+.header nav ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-image: url("peacock.jpg");
+    
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    text-align: center;
+}
+.header nav ul li{
+    float: left;
+    padding-left: 20px;
+    padding-right: 5px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+.header nav ul li a
+{
+    display: inline-block;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 5px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    font-size: 25px;
+    text-transform: full-width;
+}
+.header nav a:hover, .header nav a:active, .header nav .active a:link, .header nav .active a:visited
+{
+    text-decoration: none;
+    color: #81a5d2;
+    text-align: center;
+    background-color: #f2f6fa;
+    width: 100%;
+    display: inline-block;    
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    text-transform: full-width;
+}
+
+/*mySlide slide show*/
+.mySlide
+{
+    display: none;
+}
+.slide
+/*content styling*/
+.main-content h1
+{
+    color: #1e3552;
+}
+.main-content
+{
+    line-height: 25px;
+}
+.content
+{
+    /*width: 60%;*/
+    float: left;
+    text-align: justify;
+}
+.top-content, .middle-content, .bottom-content
+{
+    margin-top: 3%;
+}
+.last-content
+{
+    margin-bottom: 4%;
+}
+.contact-bottom-form
+{
+    margin-bottom: 270px;
+}
+
+/*modal box and contents for services page*/
+.column
+{
+    float: left;
+    width: 45%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+.card
+{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.container-modal
+{
+    padding: 0 16px;
+}
+.container-modal::after, .row::after
+{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/*contact page social media*/
+.middle-content img
+{
+    border-radius: 50%;
+}
+/*contact us form styling*/
+input[type=text], select, textarea
+{
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=radio]
+{
+    width: 30px;
+}
+h1{
+    margin-left: 70px;
+}
+h5
+{
+    margin-left: 40px;
+}
+form li
+{
+    list-style-type: none;
+    margin-bottom: 5px;
+}
+form ul li label
+{
+    float: left;
+    clear: left;
+    width: 100px;
+    text-align: left;
+    margin-right: 10px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+form ul li input, select, span
+{
+    float: left;
+    margin-bottom: 15px;
+}
+form textarea
+{
+    float:  left;
+    width: 320px;
+    height: 130px;
+}
+[type="submit"]
+{
+    clear: left;
+    margin: 20px 0 0 230px;
+    font-size: 18px;
+}
+p
+{
+    margin-left: 70px;
+    font-weight: bold;
+}
+.se
+{
+    width: 500px;
+    height: 470px;
+    border-style: none;
+}
+.red
+{
+    color: red;
+}                           
+        
+
+
+/*footer*/
+.main-footer
+{
+    width: 100%;
+    float: left;
+    margin-bottom: 15px;
+    height: 222px;
+    background-image: url("peacock.jpg");
+}
+/*quick link footer*/
+.quicklink-footer
+{
+    padding-top: 10px;
+    padding-bottom: 5px;
+    height: 222px;
+    float: left;
+    margin-bottom: 20px;
+    width: 15%;
+    background-image: url("Peacock.jpg");
+}
+.main-footer nav
+{
+    text-align: center;
+    list-style: none;
+}
+
+.main-footer nav ul
+{
+    list-style: none;
+    margin: 0 auto;
+    text-align: left;
+    text-align: center;
+}
+.main-footer nav a:link, .main-footer nav a:visited
+{
+    color: #81a5d2;
+    display: inline-block;
+    padding: 10px 25px;
+    height: 20px;
+    text-align: center;
+}
+.main-footer nav a:hover, .main-footer nav a:active, .main-footer nav .active a:link, .main-footer nav .active a:visited
+{
+    text-decoration: underline;
+    color: #81a5d2;
+    text-shadow: none;
+    text-align: center;
+    background-color: #d5e1f0;
+    width: 40%;
+}
+.main-footer nav ul li a
+{
+    text-align: center;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+/*social footer navigation*/
+.social-footer nav
+{
+    padding-top: 10px;
+    padding-bottom: 5px;
+    height: 222px;
+    float: left;
+    margin-bottom: 20px;
+    width: 20%;
+    background-image: url("peacock.jpg");
+    text-align: center;
+}
+.social-footer nav a:hover{
+    background-color: #1e3552;
+    text-align: center;
+}
+.social-footer img
+{
+    border-radius: 50%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/*contact footer information*/
+.contact-footer
+{
+    padding-top: 10px;
+    padding-bottom: 5px;
+    height: 222px;
+    float: left;
+    margin-bottom: 20px;
+    width: 30%;
+    background-image: url("Peacock.jpg");
+    font-size: 15px;
+}
+.contact-text
+{
+    color: #81a5d2;
+}
+.contact-text a
+{
+    color: #81a5d2;
+    text-decoration: none;
+}
+.content-text a:hover{
+    background-color: #d5e1f0;
+}
+
+/*words footer*/
+.words-footer
+{
+    padding-top: 10px;
+    padding-bottom: 5px;
+    height: 222px;
+    float: left;
+    width: 35%;
+    background-image: url("peacock.jpg");
+    color: #81a5d2;
+    font-size: 15px; 
+    -webkit-animation: mymove 8s infinite;
+    animation: mymove 10s infinite;
+}
+@-webkit-keyframes mymove{
+    50%{color: white;}
+}
+
+@keyframes mymove{
+    50%{color: white;}
+}
+
+.bottom-footer
+{
+    clear: both;
+    width: 100%;
+    text-align: center;
+    background-image: url("Peacock.jpg");
+    margin-top: 2;
+    color: #81a5d2;
+}
+.foot
+{
+    margin-bottom: 2px;
+}
+
+
+
+@media only screen and (min-width: 150px) and (max-width: 600px)
+{
+    .body
+    {
+        width: 90%;
+        font-size: 95%;
+    }
+    
+    .header img
+    {
+        width: 100%;  
+    }
+    
+    .container
+    {
+        width: 100%;
+    }
+    
+    .content
+    {
+        width: 100%;
+        margin-top: 2%;
+    }
+    
+    .top-content
+    {
+        border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        padding: 3% 5%;
+        margin-top: 2%;
+        margin-bottom: 4%;
+    }
+    
+    .middle-content{
+        
+        border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        padding: 3% 5%;
+        margin-top: 2%;
+        margin-bottom: 4%;
+    }
+    
+    .bottom-content{
+        margin-top: 3%;
+    }
+}
