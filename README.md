@@ -39,10 +39,14 @@ Depending on the project, technologies may include:
 
 ```bash
 web-development-projects/
-├── frontend-projects/
-├── backend-projects/
-├── ui-projects/
-└── archived-projects/
+├── hedy-lamarr/
+├── tata-tribute/
+├── html-documentation/
+├── tribute-page/
+├── working-for-climate-2019/
+├── working-for-climate-2018-website/
+├── global-softwares-2019/
+└── global-softwares-2018/
 ```
 
 ---
