@@ -39,14 +39,15 @@ Depending on the project, technologies may include:
 
 ```bash
 web-development-projects/
-├── hedy-lamarr/
-├── tata-tribute/
-├── html-documentation/
-├── tribute-page/
-├── working-for-climate-2019/
-├── working-for-climate-2018-website/
+├── global-softwares-2018/
 ├── global-softwares-2019/
-└── global-softwares-2018/
+├── hedy-lamarr/
+├── html-documentation/
+├── tata-tribute/
+├── tribute-page/
+├── working-for-climate-2018-website/
+├── working-for-climate-2019/
+└── README.md
 ```
 
 ---
